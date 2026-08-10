@@ -1,0 +1,65 @@
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Training outputs, experiment trackers, and model artifacts
+runs/
+wandb/
+mlruns/
+weights/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+*.torchscript
+*.tflite
+*.pb
+*.mlmodel
+*.bin
+
+# Datasets and invoice images must not enter the source repository
+/data/
+/dataset/
+/datasets/
+/samples/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+*.webp
+
+# Local Ultralytics settings and temporary files
+settings.json
+/.yolo-config/
+*.cache
+*.tmp
+*.log

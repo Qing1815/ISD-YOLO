@@ -32,7 +32,7 @@ ISD-YOLO/
 Python 3.8 or later is required. A CUDA-enabled PyTorch installation is recommended for training.
 
 ```bash
-git clone https://github.com/<YOUR_GITHUB_USERNAME>/ISD-YOLO.git
+git clone https://github.com/Qing1815/ISD-YOLO.git
 cd ISD-YOLO
 python -m venv .venv
 ```

@@ -5,8 +5,8 @@ Source code for **ISD-YOLO: A Lightweight and Efficient Feature Extraction Netwo
 ISD-YOLO is a lightweight single-class object detector for locating invoice seals. It is implemented on top of Ultralytics YOLO and combines the following components:
 
 - **C3k2_CFC**: A C3k2-ConvFormer-CGLU feature-extraction module that combines ConvFormer-based local feature enhancement with the gated feature-selection mechanism of CGLU to improve the representation of multi-scale seal features. The module is implemented as C3k2_ConvFormerCGLU.
-- **C2BRA**: a C2PSA-derived module using bi-level routing attention.
-- **DAttention**: deformable attention for adaptive spatial sampling.
+- **C2BRA**: A C2PSA-derived module based on bi-level routing attention. It dynamically selects informative feature regions through coarse- and fine-grained routing strategies, thereby enhancing the representation of seal shapes, edges, and internal textures while reducing redundant computation.
+- **DAttention**: A deformable attention module that adaptively samples spatial locations to focus on informative seal regions and suppress interference from complex backgrounds.
 - **EfficientHead**: A lightweight detection head implemented as Detect_Efficient. It uses a dual-branch parallel architecture with grouped convolution to efficiently extract multi-scale seal features, while reducing the number of parameters and computational cost.
 
 The implementation name `C3k2_ConvFormerCGLU` corresponds to the abbreviated module name `C3k2_CFC` used in the manuscript. The model YAML retains the standard YOLO11 default of `nc: 80`; during training, Ultralytics automatically overrides this value with the single-class definition (`seal`) in the dataset YAML.

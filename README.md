@@ -103,7 +103,3 @@ Users must follow the terms and licenses specified by the original data provider
 ## License and acknowledgement
 
 This repository is derived from Ultralytics YOLO 8.3.9 and is distributed under the GNU Affero General Public License v3.0 (AGPL-3.0). See [LICENSE](LICENSE) for details. Ultralytics YOLO documentation is available at https://docs.ultralytics.com.
-
-## Citation
-
-Citation information will be added after publication of the associated manuscript.

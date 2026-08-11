@@ -1,6 +1,6 @@
 # ISD-YOLO
 
-source code for **ISD-YOLO: A Lightweight and Efficient Feature Extraction Network for Invoice Seal Detection**.
+Source code for **ISD-YOLO: A Lightweight and Efficient Feature Extraction Network for Invoice Seal Detection**.
 
 ISD-YOLO is a lightweight single-class object detector for locating invoice seals. It is implemented on top of Ultralytics YOLO and combines the following components:
 

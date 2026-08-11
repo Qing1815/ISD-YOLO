@@ -17,8 +17,8 @@ The self-constructed portion contains 500 real invoice images supplied by a coll
 
 Fifteen representative sample images that have been approved for sharing will be provided separately through Baidu Netdisk:
 
-**Seal_datasets_samples:** Baidu Netdisk URL: https://pan.baidu.com/s/1B0jLWgPrjiTW4vfstwsCHw 
-- **Access code:** pyds.
+**Seal_datasets_samples:** Baidu Netdisk URL: https://pan.baidu.com/s/1DbrVVsNFt5c1HkjW79HIOw
+- **Access code:** tbdu.
 
 The remaining enterprise images cannot currently be distributed by the authors, including through an author-managed request procedure. No non-author contact is listed because the data provider has not established a public external-access process for these restricted images.
 
